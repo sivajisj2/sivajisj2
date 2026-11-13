@@ -1,75 +1,113 @@
-# Hi, I'm Sivaji Gadidala
+<div align="center">
 
-**Backend / Blockchain Engineer | Rust • Solidity • TypeScript**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:101828,55:155e75,100:18a999&height=190&section=header&text=Sivaji%20Gadidala&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Rust%20Systems%20%7C%20Solana%20%7C%20Smart%20Contracts%20%7C%20AI%20Infrastructure&descAlignY=60&descSize=16" width="100%" alt="Sivaji Gadidala — Rust, Solana, smart contracts and AI infrastructure" />
 
-I build backend services, blockchain infrastructure, and Web3 applications. My main focus is Rust backend development and blockchain systems, with experience across Ethereum, Solana, API development, and database-backed applications.
+<a href="https://linkedin.com/in/sivaji-gadidala-b712ba221/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://sivajibuilds.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-18A999?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" /></a>
+<a href="mailto:sivajigsivajig703@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-- **Primary focus:** Blockchain backend engineering and on-chain infrastructure
-- **Also interested in:** Rust backend, general backend engineering, and full-stack roles
-- **Exploring:** Python and AI-related application workflows
-- **Portfolio:** [sivajibuilds.netlify.app](https://sivajibuilds.netlify.app/)
-- **LinkedIn:** [Sivaji Gadidala](https://linkedin.com/in/sivaji-gadidala-b712ba221/)
+</div>
 
-## Technical Skills
+## Building reliable systems with Rust
 
-**Languages:** Rust, Solidity, TypeScript, JavaScript, Python
+I’m a software engineer with **2+ years of experience** building backend services and blockchain applications. I work primarily with **Rust, Axum, Tokio, SQLx, and PostgreSQL**, and build on-chain systems with **Solana/Anchor** and **Solidity/Foundry**.
 
-**Backend & APIs:** Axum, Tokio, Node.js, REST APIs, asynchronous programming, request validation, error handling
+I’m especially interested in infrastructure engineering: systems where transaction correctness, durable processing, clear security boundaries, and useful observability matter. I’m also deepening my focus on **AI inference infrastructure** and Rust-based model-serving workflows.
 
-**Blockchain & Web3:** Ethereum, EVM, Solana, Anchor, smart contracts, PDAs, SPL Tokens, RPC integration, transaction processing, event ingestion, Ethers.js, Web3.js
+## Engineering focus
 
-**Data:** PostgreSQL, SQLx, MySQL, MongoDB, Redis, SQL
+| Rust backend & distributed systems | Solana & blockchain infrastructure |
+|:--|:--|
+| Async APIs and services with Axum and Tokio | Rust programs with Anchor |
+| PostgreSQL, SQLx, migrations, and data modeling | PDA account design, instructions, and events |
+| Idempotency, state transitions, workers, and retries | Transaction lifecycle and RPC integration |
+| Structured logs, health checks, Docker, and CI | Permissioned relaying and replay protection |
 
-**Frontend:** React, Next.js, Vue.js, Nuxt.js, Redux, Tailwind CSS
+| Smart contracts | AI infrastructure |
+|:--|:--|
+| Solidity, Foundry, and OpenZeppelin | Rust services around inference APIs |
+| DeFi protocols, AMMs, and flash loans | Request routing and timeout budgets |
+| Access control and reentrancy-aware design | Retry and circuit-breaker patterns |
+| Contract testing and deployment workflows | Structured outputs and failure handling |
 
-**Testing & Tooling:** Unit and integration testing, Foundry, Hardhat, OpenZeppelin, Docker, GitHub Actions, CI/CD, Linux, Postman
+<div align="center">
 
-## Featured Projects
+![Rust](https://img.shields.io/badge/Rust-Systems-000000?style=flat-square&logo=rust&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-Programs-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Anchor](https://img.shields.io/badge/Anchor-Framework-2B2B2B?style=flat-square)
+![Solidity](https://img.shields.io/badge/Solidity-Contracts-363636?style=flat-square&logo=solidity&logoColor=white)
+![Axum](https://img.shields.io/badge/Axum-APIs-111827?style=flat-square)
+![Tokio](https://img.shields.io/badge/Tokio-Async-111827?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Delivery-2496ED?style=flat-square&logo=docker&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-Apps-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-### [RouterPulse — Solana DePIN Protocol](https://github.com/sivajisj/RouterPulse-Depin-Protocol)
-A Solana protocol built with Rust and Anchor for router uptime verification, on-chain state management, and reward distribution.
+</div>
 
-- Uses PDAs to manage router registration, uptime tracking, and scoring.
-- Implements heartbeat validation, timestamp checks, and replay protection.
-- Includes integration and unit tests for program behavior and state transitions.
+## Selected work
 
-**Stack:** Rust, Anchor, Solana, PDAs, SPL Tokens, TypeScript
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [NFT Indexer](https://github.com/sivajisj/nft-indexer)
-Rust-based blockchain data infrastructure focused on indexing and serving blockchain data.
+### [NexusStream](https://github.com/sivajisj2/nexusstream)
+**Durable Rust event-ingestion service**
 
-**Stack:** Rust, Tokio, Axum, SQLx, PostgreSQL, Alloy, Docker, GitHub Actions
+Versioned event batches, PostgreSQL transactions, idempotent acceptance, restart-safe delivery, bounded retries, dead-letter handling, and an operator dashboard.
 
-### [DeFi Lending Protocol v2](https://github.com/sivajisj/defi-lending-protocol-v2)
-A non-custodial Ethereum lending protocol supporting collateralized borrowing, repayment, and liquidation with Chainlink price feeds.
+`Rust` `Axum` `Tokio` `PostgreSQL` `Docker`
 
-- Uses Solidity, Foundry, and OpenZeppelin.
-- Includes access controls and reentrancy protections.
-- Tests include fuzzing and invariant checks.
+</td>
+<td width="50%" valign="top">
 
-**Stack:** Solidity, Foundry, OpenZeppelin, Chainlink, Next.js, TypeScript, Wagmi, Viem
+### [RouterPulse](https://github.com/sivajisj2/routerpulse)
+**Solana cross-cluster message-routing prototype**
 
-### [Transaction Service (Rust)](https://github.com/sivajisj/transaction-service-rust)
-A Rust backend project focused on transaction service workflows and reliable application-side processing.
+Anchor program with PDA-based configuration, sender sequencing, bounded messages, domain-separated IDs, relayer-gated destination receipts, and replay protection.
 
-**Stack:** Rust, PostgreSQL, backend APIs
+`Solana` `Rust` `Anchor` `PDAs` `PostgreSQL`
 
-## Open-Source Contributions
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- **Solana Foundation:** Contributions related to NFT creation and token minting — PRs [#846](https://github.com/solana-foundation/solana-foundation/pull/846) and [#864](https://github.com/solana-foundation/solana-foundation/pull/864).
-- **Blueshift:** Solana/Anchor learning content — PR [#267](https://github.com/blueshift-gg/blueshift-courses/pull/267).
-- **Cyfrin:** Foundry documentation — PR [#5165](https://github.com/Cyfrin/foundry-full-course-cu/pull/5165).
+### [DEX + Flash Loans](https://github.com/sivajisj2/defi-dex-flashloan)
+**DeFi protocol engineering sandbox**
 
-## Professional Focus
+Constant-product swaps, liquidity provision, and atomic flash-loan flows, with deployments documented for public test networks.
 
-I enjoy working on backend systems where correctness, reliability, and clear interfaces matter — especially transaction workflows, blockchain data processing, API design, and asynchronous services. I value readable code, testing, and learning by building practical projects.
+`Solidity` `Foundry` `DeFi` `Flash Loans`
 
-## Connect
+</td>
+<td width="50%" valign="top">
 
-- **GitHub:** [@sivajisj](https://github.com/sivajisj)
-- **LinkedIn:** [Sivaji Gadidala](https://linkedin.com/in/sivaji-gadidala-b712ba221/)
-- **Portfolio:** [sivajibuilds.netlify.app](https://sivajibuilds.netlify.app/)
+### [Invoice & Payment Service](https://github.com/sivajisj2/dodo-invoice-service)
+**Rust backend with failure-aware payment flows**
 
----
+Axum and PostgreSQL service for customers, invoices, payments, and webhooks, with a mock payment provider for exercising declines, timeouts, and network errors.
 
-*Open to relevant opportunities in blockchain backend engineering, Rust backend development, and backend systems.*
+`Rust` `Axum` `SQLx` `PostgreSQL` `Webhooks`
+
+</td>
+</tr>
+</table>
+
+> **AI infrastructure direction:** I’m applying my Rust backend foundation to inference systems—learning how to design routing, retries, circuit breakers, latency budgets, and observability around model-serving APIs.
+
+## How I approach engineering
+
+- **Correctness first:** explicit state transitions, idempotency, validation, and clear failure behavior.
+- **Operationally useful:** health checks, structured logs, migrations, containerized local workflows, and actionable dashboards.
+- **Security-aware:** least privilege, bounded inputs, replay protection, and documented trust assumptions.
+- **Practical delivery:** readable code, focused changes, reproducible setup instructions, and honest project status.
+
+## Let’s connect
+
+I’m interested in **Rust backend, Solana/Anchor, blockchain infrastructure, smart contract, and AI infrastructure** opportunities.
+
+<div align="center">
+
+[LinkedIn](https://linkedin.com/in/sivaji-gadidala-b712ba221/) · [Portfolio](https://sivajibuilds.netlify.app/) · [Email](mailto:sivajigsivajig703@gmail.com)
+
+</div>
